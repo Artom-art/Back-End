@@ -1,0 +1,5 @@
+C:\Ucheba\back-end\Lab1\Calculator\Operators\obj\Debug\Operators.csproj.CoreCompileInputs.cache
+C:\Ucheba\back-end\Lab1\Calculator\Operators\bin\Debug\Operators.dll
+C:\Ucheba\back-end\Lab1\Calculator\Operators\bin\Debug\Operators.pdb
+C:\Ucheba\back-end\Lab1\Calculator\Operators\obj\Debug\Operators.dll
+C:\Ucheba\back-end\Lab1\Calculator\Operators\obj\Debug\Operators.pdb
