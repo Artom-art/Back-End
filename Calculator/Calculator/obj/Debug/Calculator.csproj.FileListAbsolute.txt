@@ -1,0 +1,10 @@
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\bin\Debug\Operators.dll
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\bin\Debug\Operators.pdb
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\obj\Debug\Calculator.csproj.CopyComplete
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Ucheba\back-end\Lab1\Calculator\Calculator\obj\Debug\Calculator.pdb
