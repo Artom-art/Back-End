@@ -29,6 +29,11 @@ namespace ScrumBoardLibrary
             return tasks.Find(x => x.Name == taskName);
         }
 
+        public List<ITask> GetAllTasks()
+        {
+            return tasks;
+        }
+
         public void DeleteTask(ITask task)
         {
             tasks.Remove(task);

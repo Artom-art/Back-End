@@ -3,15 +3,17 @@
     public class Task : ITask
     {
         private string _name;
+        private string _description;
+        private int _priority;
         public string Name => _name;
-        public string description;
-        public int priority;
+        public string Description => _description;
+        public int Priority => _priority;
 
         public Task(string taskName, string descr, int prior)
         {
             _name = taskName;
-            description = descr;
-            priority = prior;
+            _description = descr;
+            _priority = prior;
         }
 
         public void ChangeName(string newName)
@@ -21,12 +23,12 @@
 
         public void ChangePriority(int newPriority)
         {
-            priority = newPriority;
+            _priority = newPriority;
         }
 
         public void ChangeDescription(string newDescription)
         {
-            description = newDescription;
+            _description = newDescription;
         }
     }
 }

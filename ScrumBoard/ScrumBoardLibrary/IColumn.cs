@@ -1,4 +1,6 @@
-﻿namespace ScrumBoardLibrary
+﻿using System.Collections.Generic;
+
+namespace ScrumBoardLibrary
 {
     public interface IColumn
     {
@@ -6,5 +8,8 @@
         void AddTask(ITask task);
         void DeleteTask(ITask task);
         void ChangeName(string newName);
+        void Clear();
+        ITask GetTask(string name);
+        List<ITask> GetAllTasks();
     }
 }

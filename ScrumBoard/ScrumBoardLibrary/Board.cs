@@ -5,26 +5,29 @@ namespace ScrumBoardLibrary
     public class Board : IBoard
     {
         private string _name;
-        private List<IColumn> columns;
+        private List<IColumn> _columns;
+
+        public string Name => _name;
+        public List<IColumn> Columns => _columns;
 
         public Board(string name)
         {
             _name = name;
-            columns = new List<IColumn>();
+            _columns = new List<IColumn>();
         }
 
         public void AddColumn(string columnName)
         {
-            if (columns.Count < 10)
+            if (_columns.Count < 10)
             {
                 IColumn newColumn = new Column(columnName);
-                columns.Add(newColumn);
+                _columns.Add(newColumn);
             }
         }
 
         public void AddTask(ITask task)
         {
-            IColumn column = columns[0];    
+            IColumn column = _columns[0];    
             column.AddTask(task);
         }
 
